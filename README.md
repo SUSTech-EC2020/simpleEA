@@ -50,8 +50,7 @@ Please refer to the slides entitled *How Does a Simple EA Work* for more details
 **Question:** After answering the two questions above, do you know what are the input arguments and the output of your simple EA?
 
 ```matlab
-function [output ... % replace it by your output(s)
-    ]=simpleEA( ...  % name of your simple EA function
+function [output]=simpleEA( ...  % name of your simple EA function
     fitFunc, ... % name of objective/fitness function
     T, ... % total number of evaluations
     input) % replace it by your input arguments
