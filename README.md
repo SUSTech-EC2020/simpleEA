@@ -15,8 +15,8 @@ Any programming language that you prefer, however, the sample code in this repos
 
 
 ### Prepare your repository
-* Each student will need to create a GitHub account and fork this repository [simpleEA](https://github.com/SUSTech-EC2020/simpleEA.git). If you use other programming language, there is no need to folk the repository, you can create a new one.
-* The forked repository should be set as *private* and invite the user *ljialin* as a collaborator so that the lab assistant (me) will be able to see your repository.
+* Each student will need to create a GitHub account and clone this repository [simpleEA](https://github.com/SUSTech-EC2020/simpleEA.git). If you use other programming language, there is no need to clone the repository, you can create a new one.
+* The cloned repository should be set as *private* and invite the user *ljialin* as a collaborator so that the lab assistant (me) will be able to see your repository.
 * Your may be asked to make your repository *public* in the future.
 
 ## Minimising a simple objective function in discrete domain
