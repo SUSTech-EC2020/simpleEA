@@ -45,6 +45,18 @@ Please refer to the slides entitled *How Does a Simple EA Work* for more details
 
 **Question:** Considering the structure of the EA detailed above, what are the control parameters in this simple EA? Could you please list them, as well as their range and type of variable?
 
+**Question:** When testing your EA, what are the results that you will need to record for understand the behabior and performance of your EA?
+
+**Question:** After answering the two questions above, do you know what are the input arguments and the output of your simple EA?
+
+```matlab
+function [output ... % replace it by your output(s)
+    ]=simpleEA( ...  % name of your simple EA function
+    fitFunc, ... % name of objective/fitness function
+    T, ... % total number of evaluations
+    input) % replace it by your input arguments
+end
+```
 
 ## Test your EA!
 Now please test your EA on the given objective function by varying the variables. The values to test are given below.
@@ -55,7 +67,6 @@ Now please test your EA on the given objective function by varying the variables
 |Mutation probability $p$   | 0.1, 0.5, 0.9 |
 |Computational budget (total #evaluations) $T$   | 100, 1000, 10000|
 
-**Question:** When testing your EA, what are the results that you will need to record for understand the behabior and performance of your EA?
 
 ## Visualise the results
 Please the figures described as follows for all the parameter combinations.
