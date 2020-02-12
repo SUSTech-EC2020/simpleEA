@@ -59,13 +59,7 @@ end
 ```
 
 ## Test your EA!
-Now please test your EA on the given objective function by varying the population size and budget. The values to test are given below.
-
-|Variable | Values to test|
-|---------|---------------|
-|Population size $\mu$ | 4, 10 |
-|Computational budget (total #evaluations) $T$   | 100, 1000, 10000|
-
+Now please test your EA on the given objective function by varying the population size (mu = 4, 10 and 100).
 
 ## Visualise the results
 Please the figures described as follows for all the parameter combinations.
