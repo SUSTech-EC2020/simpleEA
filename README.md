@@ -39,11 +39,12 @@ Please refer to the slides entitled *How Does a Simple EA Work* for more details
 **Structure of this simple EA:** Highlights are given below:
 * Binary representation of individuals.
 * Roulette-wheel selection.
+* One point crossover.
 * Bit-flipping mutation.
 * We consider a very simple setting: #offspring=#parents=size of the population. 
 * The current population will be replaced by the new population of offspring.
 
-**Question:** Considering the structure of the EA detailed above, what are the control parameters in this simple EA? Could you please list them, as well as their range and type of variable?
+**Question:** Considering the structure of the EA detailed above, what are the control parameters in this simple EA? Could you please list them?
 
 **Question:** When testing your EA, what are the results that you will need to record for understand the behabior and performance of your EA?
 
@@ -58,12 +59,11 @@ end
 ```
 
 ## Test your EA!
-Now please test your EA on the given objective function by varying the variables. The values to test are given below.
+Now please test your EA on the given objective function by varying the population size and budget. The values to test are given below.
 
 |Variable | Values to test|
 |---------|---------------|
 |Population size $\mu$ | 4, 10 |
-|Mutation probability $p$   | 0.1, 0.5, 0.9 |
 |Computational budget (total #evaluations) $T$   | 100, 1000, 10000|
 
 
