@@ -23,7 +23,7 @@ Any programming language that you prefer, however, the sample code in this repos
 You will work on minimising a simple quadratic function in discrete domain using a simple EA. You have seen this function in Lecture 1, defined as *x^2*, with *x* in the integer interval [0,31], i.e., x=0,1,...,30,31.
 
 
-This simple objective function is implemented in this repository and it is named as [objFunc](), shown as follows:
+This simple objective function is implemented in this repository and it is named as *objFunc*, shown as follows:
 ```matlab
 function [y]=objFunc(x)
 y = x.^2;
