@@ -39,8 +39,7 @@ Please refer to the slides entitled *How Does a Simple EA Work* for more details
 * Roulette-wheel selection.
 * One point crossover.
 * Bit-flipping mutation.
-* We consider a very simple setting: #offspring=#parents=size of the population. 
-* The current population will be replaced by the new population of offspring.
+* We consider a very simple setting: the current population will be replaced by the new population of same size.
 
 **Question:** Considering the structure of the EA detailed above, what are the control parameters in this simple EA? Could you please list them?
 
