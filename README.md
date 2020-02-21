@@ -56,7 +56,7 @@ end
 ```
 
 ## Test your EA!
-Now please test your EA on the given objective function by varying the population size (mu = 4, 10 and 100).
+Now please test your EA on the given objective function by varying the population size (mu = 4, 10).
 
 ## Visualise the results
 Please the figures described as follows for all the parameter combinations.
