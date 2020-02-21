@@ -60,5 +60,7 @@ Now please test your EA on the given objective function by varying the populatio
 
 ## Visualise the results
 Please the figures described as follows for all the parameter combinations.
-* **Figure 1** *x-axis:* current generation number. *y-axis:* best-so-far fitness value.
-* **Figure 2** *x-axis:* current generation number. *y-axis:* fitness value of the best individual of current population.
+* **Figure 1** *x-axis:* current evaluation number. *y-axis:* best-so-far fitness value.
+* **Figure 2** *x-axis:* current evaluation number. *y-axis:* fitness value of the best individual of current population.
+* **Figure 3** *x-axis:* log(current evaluation number). *y-axis:* best-so-far fitness value.
+* **Figure 4** *x-axis:* log(current evaluation number). *y-axis:* fitness value of the best individual of current population.
